@@ -1,0 +1,150 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/nonglin"
+        android:layout_width="296dp"
+        android:layout_height="173dp"
+        android:src="@drawable/logo1" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/cjchaxun"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:src="@drawable/cjcx" />
+
+            <TextView
+                android:id="@+id/text_cjcx"
+                android:layout_width="133dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="成绩查询" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <ImageView
+                android:id="@+id/djs"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:src="@drawable/djs" />
+
+            <TextView
+                android:id="@+id/text_djs"
+                android:layout_width="133dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="倒计时" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/bj"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:src="@drawable/bj" />
+
+            <TextView
+                android:id="@+id/text_bj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="笔记" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <ImageView
+                android:id="@+id/book"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:src="@drawable/book" />
+
+            <TextView
+                android:id="@+id/text_book"
+                android:layout_width="133dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="第二大学" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <ImageView
+                android:id="@+id/money"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:src="@drawable/money" />
+
+            <TextView
+                android:id="@+id/text_money"
+                android:layout_width="133dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="二手交易" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/more"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:src="@drawable/more" />
+
+            <TextView
+                android:id="@+id/text_more"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="更多" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="149dp"
+        android:src="@drawable/bg5" />
+
+    <ImageView
+        android:id="@+id/bbjj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg6" />
+
+    <ImageView
+        android:id="@+id/xytt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg7" />
+
+</LinearLayout>

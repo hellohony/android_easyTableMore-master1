@@ -1,0 +1,4 @@
+#Sat Dec 28 12:01:10 CST 2019
+base.0=D\:\\androidtest\\android_easyTableMore-master1\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex
